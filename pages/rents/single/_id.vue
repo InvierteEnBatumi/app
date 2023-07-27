@@ -7,7 +7,7 @@
       <v-row>
         <v-col class="col-12">
           <v-card class="rounded-lg">
-            <v-img :src="`http://164.92.69.180${property.main_picture.url}`" height="300"></v-img>
+            <v-img :src="`https://batumi.descuentosya.uy${property.main_picture.url}`" height="300"></v-img>
             <v-card-text>
               <v-row no-gutters class="mb-3" v-for="feature in property.features" :key="feature.id">
                 <v-col class="col-8">
@@ -82,7 +82,7 @@
             </v-card-text>
             <v-card-actions class="d-flex justify-center">
               <v-btn class="white--text font-weight-black" color="secondary" large target="blank" depressed rounded
-                :href="`http://164.92.69.180${property.file.url}`">
+                :href="`https://batumi.descuentosya.uy${property.file.url}`">
                 Ver contrato
               </v-btn>
             </v-card-actions>
