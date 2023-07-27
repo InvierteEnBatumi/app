@@ -34,7 +34,10 @@ export const actions = {
     commit
   }, params = {}) {
     const promotions = await this.$axios.get(`/promotions`, {
-      params: params,
+      params: {
+        ...params,
+        populate:'*'
+      },
       paramsSerializer: params => {
         return qs.stringify(params, {
           arrayFormat: 'brackets'
