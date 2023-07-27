@@ -17,6 +17,9 @@
   "CardsHabitantesComponent": {
     "description": "Auto imported from components/cards/habitantesComponent.vue"
   },
+  "GraphComponent": {
+    "description": "Auto imported from components/graph/component.vue"
+  },
   "GeneralAdminComponent": {
     "description": "Auto imported from components/general/adminComponent.vue"
   },
@@ -37,9 +40,6 @@
   },
   "GeneralTableComponent": {
     "description": "Auto imported from components/general/tableComponent.vue"
-  },
-  "GraphComponent": {
-    "description": "Auto imported from components/graph/component.vue"
   },
   "HeadersDashboardComponent": {
     "description": "Auto imported from components/headers/dashboardComponent.vue"

@@ -35,15 +35,7 @@
                   <span class="font-weight-bold black--text">Valor actual</span>
                 </v-col>
                 <v-col class="col-4 text-right">
-                  <span class="font-weight-bold black--text">{{ property.price + property.revalorization }} $</span>
-                </v-col>
-              </v-row>
-              <v-row no-gutters class="mb-3">
-                <v-col class="col-8">
-                  <span class="font-weight-bold black--text">Valor de mercado actual</span>
-                </v-col>
-                <v-col class="col-4 text-right">
-                  <span class="font-weight-bold black--text">{{ property.revalorization }} $</span>
+                  <span class="font-weight-bold black--text">{{ property.price }} $</span>
                 </v-col>
               </v-row>
               <v-row no-gutters class="mb-3">
@@ -118,7 +110,7 @@
 
             </v-card-text>
             <v-divider></v-divider>
-            <v-card-text>
+            <v-card-text v-if="property.features.length>0">
               <GeneralCardComponent>
                 <generalCardTitleComponent>Caracteristicas generales</generalCardTitleComponent>
                 <v-card-text>

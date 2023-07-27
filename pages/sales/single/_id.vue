@@ -31,25 +31,37 @@
               </v-row>
               <v-row no-gutters class="mb-3">
                 <v-col class="col-8">
-                  <span class="font-weight-bold black--text">Valor actual</span>
+                  <span class="font-weight-bold black--text">Metros cuadrados</span>
                 </v-col>
                 <v-col class="col-4 text-right">
-                  <span class="font-weight-bold black--text">{{ property.price + property.revalorization }} $</span>
+                  <span class="font-weight-bold black--text">{{ property.data.square_meters }} m2</span>
+                </v-col>
+              </v-row>
+
+              <v-row no-gutters class="mb-3">
+                <v-col class="col-8">
+                  <span class="font-weight-bold black--text">Capital contribuido</span>
+                </v-col>
+                <v-col class="col-4 text-right">
+                  <span class="font-weight-bold black--text">{{ property.data.contributed_capital }} $</span>
+                </v-col>
+              </v-row>
+
+
+              <v-row no-gutters class="mb-3">
+                <v-col class="col-8">
+                  <span class="font-weight-bold black--text">Plusvalia generada</span>
+                </v-col>
+                <v-col class="col-4 text-right">
+                  <span class="font-weight-bold black--text">{{ property.data.surplus_value_generated }} $</span>
                 </v-col>
               </v-row>
               <v-row no-gutters class="mb-3">
                 <v-col class="col-8">
-                  <span class="font-weight-bold black--text">Valor de mercado actual</span>
+                  <span class="font-weight-bold black--text">Orientacion</span>
                 </v-col>
                 <v-col class="col-4 text-right">
-                  <span class="font-weight-bold black--text">{{ property.revalorization }} $</span>
-                </v-col>
-              </v-row>
-              <v-row no-gutters class="mb-3">
-                <v-col class="col-12">
-                  <a class="font-weight-black text-subtitle-1" target="blank" :href="`https://batumi.descuentosya.uy${property.file.url}`">
-                    Documentos: <v-icon color="orange" size="30">mdi-file</v-icon>contrato.pdf
-                  </a>
+                  <span class="font-weight-bold black--text">{{ property.data.orientation }}</span>
                 </v-col>
               </v-row>
 
