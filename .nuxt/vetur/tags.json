@@ -1,0 +1,116 @@
+{
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  },
+  "CardsAlquileresExpensasComponent": {
+    "description": "Auto imported from components/cards/alquileresExpensasComponent.vue"
+  },
+  "CardsCashFlowComponent": {
+    "description": "Auto imported from components/cards/cashFlowComponent.vue"
+  },
+  "CardsHabitantesComponent": {
+    "description": "Auto imported from components/cards/habitantesComponent.vue"
+  },
+  "GeneralAdminComponent": {
+    "description": "Auto imported from components/general/adminComponent.vue"
+  },
+  "GeneralBottomBarComponent": {
+    "description": "Auto imported from components/general/bottomBarComponent.vue"
+  },
+  "GeneralCloseButtonComponent": {
+    "description": "Auto imported from components/general/closeButtonComponent.vue"
+  },
+  "GeneralGraphComponent": {
+    "description": "Auto imported from components/general/graphComponent.vue"
+  },
+  "GeneralModalSuccessComponent": {
+    "description": "Auto imported from components/general/modalSuccessComponent.vue"
+  },
+  "GeneralNavigationComponent": {
+    "description": "Auto imported from components/general/navigationComponent.vue"
+  },
+  "GeneralTableComponent": {
+    "description": "Auto imported from components/general/tableComponent.vue"
+  },
+  "GraphComponent": {
+    "description": "Auto imported from components/graph/component.vue"
+  },
+  "HeadersDashboardComponent": {
+    "description": "Auto imported from components/headers/dashboardComponent.vue"
+  },
+  "HeadersGeneralComponent": {
+    "description": "Auto imported from components/headers/generalComponent.vue"
+  },
+  "NewsCardComponent": {
+    "description": "Auto imported from components/news/cardComponent.vue"
+  },
+  "PropertiesCardComponent": {
+    "description": "Auto imported from components/properties/cardComponent.vue"
+  },
+  "CardsSinglePropertyComponent": {
+    "description": "Auto imported from components/cards/singleProperty/component.vue"
+  },
+  "FormsFieldsCheckboxComponent": {
+    "description": "Auto imported from components/forms/fields/checkboxComponent.vue"
+  },
+  "FormsFieldsFileComponent": {
+    "description": "Auto imported from components/forms/fields/fileComponent.vue"
+  },
+  "FormsFieldsPasswordComponent": {
+    "description": "Auto imported from components/forms/fields/passwordComponent.vue"
+  },
+  "FormsFieldsRadioComponent": {
+    "description": "Auto imported from components/forms/fields/radioComponent.vue"
+  },
+  "FormsFieldsSelectComponent": {
+    "description": "Auto imported from components/forms/fields/selectComponent.vue"
+  },
+  "FormsFieldsSelectMonthComponent": {
+    "description": "Auto imported from components/forms/fields/selectMonthComponent.vue"
+  },
+  "FormsFieldsTextButtonComponent": {
+    "description": "Auto imported from components/forms/fields/textButtonComponent.vue"
+  },
+  "FormsFieldsTextComponent": {
+    "description": "Auto imported from components/forms/fields/textComponent.vue"
+  },
+  "FormsFieldsTextareaComponent": {
+    "description": "Auto imported from components/forms/fields/textareaComponent.vue"
+  },
+  "FormsFieldsTimePickerComponent": {
+    "description": "Auto imported from components/forms/fields/timePickerComponent.vue"
+  },
+  "GeneralCardComponent": {
+    "description": "Auto imported from components/general/card/component.vue"
+  },
+  "GeneralCardMiniComponent": {
+    "description": "Auto imported from components/general/card/miniComponent.vue"
+  },
+  "GeneralCardTitleComponent": {
+    "description": "Auto imported from components/general/card/titleComponent.vue"
+  },
+  "GeneralNavigationUserComponent": {
+    "description": "Auto imported from components/general/navigation/userComponent.vue"
+  },
+  "GeneralUploadCardComponent": {
+    "description": "Auto imported from components/general/upload/cardComponent.vue"
+  },
+  "GeneralUploadFilesComponent": {
+    "description": "Auto imported from components/general/upload/filesComponent.vue"
+  },
+  "GeneralUploadSingleFileComponent": {
+    "description": "Auto imported from components/general/upload/singleFileComponent.vue"
+  },
+  "CardsSinglePropertyCardComponent": {
+    "description": "Auto imported from components/cards/singleProperty/card/component.vue"
+  },
+  "CardsSinglePropertyCardSheetComponent": {
+    "description": "Auto imported from components/cards/singleProperty/card/sheetComponent.vue"
+  }
+}

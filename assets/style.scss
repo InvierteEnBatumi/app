@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.0.0/css/ionicons-core.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.0.0/css/ionicons.min.css');
+
+$main-font: 'Raleway';
+
+body {
+
+  .v-application {
+    .v-toolbar__title {
+      font-family: $main-font !important;
+    }
+
+    font-family: $main-font !important;
+
+  //General
+  background: #f5f5f5 !important;
+
+  .p-relative {
+    position: relative;
+  }
+
+  .p-absolute {
+    position: absolute;
+  }
+
+  .fill-width {
+    width: 100% !important;
+  }
+
+  .loading {
+    transform-origin: 50% 50%;
+    animation: jump .5s linear alternate infinite;
+  }
+
+  //@grid
+  .align-stretch {
+    align-items: stretch;
+  }
+
+  //Graphs
+  .v-progress-circular__overlay {
+    stroke-linecap: round;
+  }
+
+  //cards
+  .card-overflow {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+
+  //Buttons
+  .v-btn {
+    font-family: $main-font !important;
+
+    ::before {
+      background: none !important;
+    }
+  }
+
+  //elevations
+
+  .elevation-12 {
+    box-shadow: 20px 19px 8px -4px #c9c9c933, 0px 12px 17px 2px #c9c9c933, 0px 5px 22px 4px #c9c9c933 !important;
+  }
+
+  //Text
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  label,
+  span,
+  p,
+  h6 .text-h1,
+  .text-h2,
+  .text-h3,
+  .text-h4,
+  .text-h5,
+  .text-h6,
+  .v-toolbar__content,
+  .v-stepper__label,
+  .text-subtitle-1,
+  .text-subtitle-2,
+  .v-card__title {
+    font-family: $main-font !important;
+  }
+  .font-weight-extra-bold {
+    font-weight: 900 !important;
+  }
+
+  .font-weight-bold {
+    font-weight: 700 !important;
+  }
+
+  .font-weight-regular {
+    font-weight: 600 !important;
+  }
+
+  .font-weight-semi-regular {
+    font-weight: 500 !important;
+  }
+
+  //inputs
+  .v-input--selection-controls {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  //icons 
+  .icon-shadow {
+    text-shadow: 1px 1px 2px black;
+  }
+
+  //table
+  .v-data-table-header {
+    th {
+      font-size: 15px !important;
+      font-family: $main-font;
+      color: black !important;
+    }
+  }
+
+  td {
+    font-weight: 600;
+    font-family: "Raleway" !important;
+
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  //tabs
+
+  .active-tab {
+    background: #03a9f4 !important;
+    border-radius: 10px;
+    color: black !important;
+
+  }
+
+  @media (min-width: 720px) {
+    .v-tab {
+      width: 25% !important;
+    }
+  }
+}
+}

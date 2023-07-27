@@ -1,0 +1,79 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_9ee0b1b6"
+  },
+  {
+    "name": "investments",
+    "path": "/investments",
+    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/investments/index.vue",
+    "chunkName": "pages/investments/index",
+    "_name": "_7107ebe4"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_6d1f5618"
+  },
+  {
+    "name": "news",
+    "path": "/news",
+    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/news/index.vue",
+    "chunkName": "pages/news/index",
+    "_name": "_b68b32ca"
+  },
+  {
+    "name": "rents",
+    "path": "/rents",
+    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/rents/index.vue",
+    "chunkName": "pages/rents/index",
+    "_name": "_0b47b828"
+  },
+  {
+    "name": "sales",
+    "path": "/sales",
+    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/sales/index.vue",
+    "chunkName": "pages/sales/index",
+    "_name": "_e585834c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_006e9c46"
+  },
+  {
+    "name": "investments-single-id",
+    "path": "/investments/single/:id?",
+    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/investments/single/_id.vue",
+    "chunkName": "pages/investments/single/_id",
+    "_name": "_67a3ef67"
+  },
+  {
+    "name": "news-single-id",
+    "path": "/news/single/:id?",
+    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/news/single/_id.vue",
+    "chunkName": "pages/news/single/_id",
+    "_name": "_0f9a62fa"
+  },
+  {
+    "name": "rents-single-id",
+    "path": "/rents/single/:id?",
+    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/rents/single/_id.vue",
+    "chunkName": "pages/rents/single/_id",
+    "_name": "_3b59fce6"
+  },
+  {
+    "name": "sales-single-id",
+    "path": "/sales/single/:id?",
+    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/sales/single/_id.vue",
+    "chunkName": "pages/sales/single/_id",
+    "_name": "_50338a9b"
+  }
+]

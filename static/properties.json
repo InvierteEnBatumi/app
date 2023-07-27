@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Beachfront Home",
+    "id": 1,
+    "image": "https://www.curiocityvillas.com/img/upload/properties/98/ultra-private-ocean-view-villa.jpg",
+    "promotion_code": "123",
+    "area_m2": 200,
+    "building_name": "Ocean Paradise Tower",
+    "percent_promotion":30
+  },
+  {
+    "name": "Modern Luxury Villa",
+    "id": 2,
+    "image": "https://www.curiocityvillas.com/img/upload/properties/134/gated-community-villa.jpg",
+    "promotion_code": "456",
+    "area_m2": 300,
+    "building_name": "Elite Estates Residence",
+    "percent_promotion":35
+  },
+  {
+    "name": "Luxury Ocean View Villa",
+    "id": 3,
+    "image": "https://www.curiocityvillas.com/img/upload/properties/125/modern-luxury-villa.jpg",
+    "promotion_code": "789",
+    "area_m2": 250,
+    "building_name": "Seaside Heights Manor",
+    "percent_promotion":50
+  },
+  {
+    "name": "Beachfront Villa",
+    "id": 4,
+    "image": "https://www.curiocityvillas.com/img/upload/properties/119/beachfront-vacation-home.jpg",
+    "promotion_code": "321",
+    "area_m2": 180,
+    "building_name": "Sunset Sands Condominiums",
+    "percent_promotion":60
+  },
+  {
+    "name": "Torrelobos Luxury Condo",
+    "id": 5,
+    "image": "https://www.curiocityvillas.com/img/upload/properties/97/luxury-villa-at-village-del-faro.jpg",
+    "promotion_code": "654",
+    "area_m2": 150,
+    "building_name": "Skyline Towers",
+    "percent_promotion":90
+  }
+]

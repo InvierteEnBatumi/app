@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+      "title": "Oportunidades en Batumi",
+      "content": "Descubre el potencial del mercado inmobiliario de Batumi. Con su floreciente industria turística y atractivos incentivos fiscales, invertir en propiedades en Batumi puede generar excelentes rendimientos. ¡Explora las diversas opciones de inversión disponibles y aprovecha la oportunidad!",
+      "image": "https://media.traveler.es/photos/6281039611b49db7250a8d25/3:2/w_2997,h_1998,c_limit/Batumi.jpg"
+    },
+    {
+        "id":2,
+      "title": "Batumi: Un destino prometedor",
+      "content": "La ubicación estratégica de Batumi, su moderna infraestructura y su entorno favorable para los negocios lo convierten en un destino ideal para inversores extranjeros. Ya sea que estés interesado en proyectos comerciales o propiedades residenciales, Batumi ofrece un prometedor panorama de inversión.",
+      "image": "https://www.advantour.com/img/georgia/images/batumi.jpg"
+    },
+    {
+        "id":3,
+      "title": "Invertir en turismo en Batumi",
+      "content": "El sector turístico de Batumi está experimentando un notable crecimiento, atrayendo a millones de visitantes cada año. Explora las oportunidades de inversión en hoteles, resorts y negocios de hospitalidad para aprovechar la próspera industria turística de la ciudad.",
+      "image": "https://fotografias.lasexta.com/clipping/cmsimages01/2022/06/13/BB2BAAD3-96D7-430E-AFDB-AE6393102B1E/batumi-georgia_58.jpg?crop=2071,1174,x0,y113&width=1000&height=567&optimize=high&format=webply"
+    },
+    {
+        "id":4,
+        "title": "Beneficios de invertir en Batumi",
+      "content": "La Zona Franca Industrial de Batumi ofrece numerosas ventajas para los inversores, como exenciones fiscales, regulaciones simplificadas y acceso a mercados internacionales. Aprende cómo puedes aprovechar estos beneficios para establecer o expandir tus operaciones comerciales en Batumi.",
+      "image": "https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/live_banner/batumi.jpg"
+    },
+    {
+        "id":5,
+        "title": "Batumi: Centro de tecnología",
+      "content": "Batumi se está convirtiendo rápidamente en un centro de tecnología e innovación. Desde startups hasta empresas tecnológicas consolidadas, la ciudad ofrece un entorno propicio para el crecimiento y desarrollo. Explora el potencial de inversión del próspero ecosistema tecnológico de Batumi.",
+      "image": "https://www.finnsaway.com/wp-content/uploads/2018/09/Batumi-Georgia-2018-Finnsaway-27.jpg"
+    }
+]  

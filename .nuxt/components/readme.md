@@ -1,0 +1,46 @@
+# Discovered Components
+
+This is an auto-generated list of components discovered by [nuxt/components](https://github.com/nuxt/components).
+
+You can directly use them in pages and other components without the need to import them.
+
+**Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
+
+- `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
+- `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
+- `<VuetifyLogo>` | `<vuetify-logo>` (components/VuetifyLogo.vue)
+- `<CardsAlquileresExpensasComponent>` | `<cards-alquileres-expensas-component>` (components/cards/alquileresExpensasComponent.vue)
+- `<CardsCashFlowComponent>` | `<cards-cash-flow-component>` (components/cards/cashFlowComponent.vue)
+- `<CardsHabitantesComponent>` | `<cards-habitantes-component>` (components/cards/habitantesComponent.vue)
+- `<GeneralAdminComponent>` | `<general-admin-component>` (components/general/adminComponent.vue)
+- `<GeneralBottomBarComponent>` | `<general-bottom-bar-component>` (components/general/bottomBarComponent.vue)
+- `<GeneralCloseButtonComponent>` | `<general-close-button-component>` (components/general/closeButtonComponent.vue)
+- `<GeneralGraphComponent>` | `<general-graph-component>` (components/general/graphComponent.vue)
+- `<GeneralModalSuccessComponent>` | `<general-modal-success-component>` (components/general/modalSuccessComponent.vue)
+- `<GeneralNavigationComponent>` | `<general-navigation-component>` (components/general/navigationComponent.vue)
+- `<GeneralTableComponent>` | `<general-table-component>` (components/general/tableComponent.vue)
+- `<GraphComponent>` | `<graph-component>` (components/graph/component.vue)
+- `<HeadersDashboardComponent>` | `<headers-dashboard-component>` (components/headers/dashboardComponent.vue)
+- `<HeadersGeneralComponent>` | `<headers-general-component>` (components/headers/generalComponent.vue)
+- `<NewsCardComponent>` | `<news-card-component>` (components/news/cardComponent.vue)
+- `<PropertiesCardComponent>` | `<properties-card-component>` (components/properties/cardComponent.vue)
+- `<CardsSinglePropertyComponent>` | `<cards-single-property-component>` (components/cards/singleProperty/component.vue)
+- `<FormsFieldsCheckboxComponent>` | `<forms-fields-checkbox-component>` (components/forms/fields/checkboxComponent.vue)
+- `<FormsFieldsFileComponent>` | `<forms-fields-file-component>` (components/forms/fields/fileComponent.vue)
+- `<FormsFieldsPasswordComponent>` | `<forms-fields-password-component>` (components/forms/fields/passwordComponent.vue)
+- `<FormsFieldsRadioComponent>` | `<forms-fields-radio-component>` (components/forms/fields/radioComponent.vue)
+- `<FormsFieldsSelectComponent>` | `<forms-fields-select-component>` (components/forms/fields/selectComponent.vue)
+- `<FormsFieldsSelectMonthComponent>` | `<forms-fields-select-month-component>` (components/forms/fields/selectMonthComponent.vue)
+- `<FormsFieldsTextButtonComponent>` | `<forms-fields-text-button-component>` (components/forms/fields/textButtonComponent.vue)
+- `<FormsFieldsTextComponent>` | `<forms-fields-text-component>` (components/forms/fields/textComponent.vue)
+- `<FormsFieldsTextareaComponent>` | `<forms-fields-textarea-component>` (components/forms/fields/textareaComponent.vue)
+- `<FormsFieldsTimePickerComponent>` | `<forms-fields-time-picker-component>` (components/forms/fields/timePickerComponent.vue)
+- `<GeneralCardComponent>` | `<general-card-component>` (components/general/card/component.vue)
+- `<GeneralCardMiniComponent>` | `<general-card-mini-component>` (components/general/card/miniComponent.vue)
+- `<GeneralCardTitleComponent>` | `<general-card-title-component>` (components/general/card/titleComponent.vue)
+- `<GeneralNavigationUserComponent>` | `<general-navigation-user-component>` (components/general/navigation/userComponent.vue)
+- `<GeneralUploadCardComponent>` | `<general-upload-card-component>` (components/general/upload/cardComponent.vue)
+- `<GeneralUploadFilesComponent>` | `<general-upload-files-component>` (components/general/upload/filesComponent.vue)
+- `<GeneralUploadSingleFileComponent>` | `<general-upload-single-file-component>` (components/general/upload/singleFileComponent.vue)
+- `<CardsSinglePropertyCardComponent>` | `<cards-single-property-card-component>` (components/cards/singleProperty/card/component.vue)
+- `<CardsSinglePropertyCardSheetComponent>` | `<cards-single-property-card-sheet-component>` (components/cards/singleProperty/card/sheetComponent.vue)

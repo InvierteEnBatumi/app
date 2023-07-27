@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Summer House Rental",
+    "id": 1,
+    "image": "https://www.curiocityvillas.com/img/upload/properties/97/luxury-villa-at-village-del-faro.jpg",
+    "next_due_date": "2023-07-15",
+    "installment_number": 3,
+    "pending_installments": 5
+  },
+  {
+    "name": "Gated Community Villa",
+    "id": 2,
+    "image": "https://www.curiocityvillas.com/img/upload/properties/122/countryside-view-villa.jpg",
+    "next_due_date": "2023-07-10",
+    "installment_number": 2,
+    "pending_installments": 4
+  },
+  {
+    "name": "Modern Luxury Villa",
+    "id": 3,
+    "image": "https://www.curiocityvillas.com/img/upload/properties/140/torrelobos-luxury-condo.jpg",
+    "next_due_date": "2023-07-20",
+    "installment_number": 1,
+    "pending_installments": 6
+  },
+  {
+    "name": "Beachfront Villa",
+    "id": 4,
+    "image": "https://www.curiocityvillas.com/img/upload/properties/131/la-petanque-beach-house-2.jpg",
+    "next_due_date": "2023-07-12",
+    "installment_number": 4,
+    "pending_installments": 3
+  },
+  {
+    "name": "Ocean View Villa",
+    "id": 5,
+    "image": "https://www.curiocityvillas.com/img/upload/properties/88/exceptional-tuscan-style-villa.jpg",
+    "next_due_date": "2023-07-18",
+    "installment_number": 2,
+    "pending_installments": 2
+  }
+]
