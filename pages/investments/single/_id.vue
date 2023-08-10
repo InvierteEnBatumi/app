@@ -4,31 +4,14 @@
       {{ property.name }}
     </portal>
     <v-container>
-      <v-row no-gutters>
-        <v-col class="col-12">
-          <h4 class="font-weight-ectra-bold black--text text-center">Precio de compra</h4>
-        </v-col>
-        <v-col class="col-12">
-          <h1 class="font-weight-black secondary--text text-center">
-            $ {{ property.price }}
-          </h1>
-        </v-col>
-      </v-row>
-      <v-row no-gutters  v-if="property.data.market_value">
-        <v-col class="col-12">
-          <h4 class="font-weight-ectra-bold black--text text-center">Valor de mercado</h4>
-        </v-col>
-        <v-col class="col-12">
-          <h1 class="font-weight-black secondary--text text-center">
-            $ {{ property.data.market_value }} / mes
-          </h1>
-        </v-col>
-      </v-row>
-
       <v-row>
         <v-col class="col-12">
           <GeneralCardComponent>
-            <v-img :src="`https://batumi.descuentosya.uy${property.main_picture.url}`" height="300"></v-img>
+            <v-carousel height="300" hide-delimiters>
+              <v-carousel-item v-for="(picture,index) in property.pictures" :key="index">
+                <v-img :src="`https://batumi.descuentosya.uy${picture.url}`" height="300"></v-img>
+              </v-carousel-item>
+            </v-carousel>
             <v-card-text>
               <v-row no-gutters class="mb-3">
                 <v-col class="col-8">

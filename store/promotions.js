@@ -10,6 +10,7 @@ export const state = () => ({
     main_picture: {
         url: ''
       },
+      features:[],
       file:{
         url:''
       }

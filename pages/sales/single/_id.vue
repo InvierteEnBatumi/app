@@ -8,7 +8,11 @@
       <v-row>
         <v-col class="col-12">
           <v-card class="rounded-lg">
-            <v-img :src="`https://batumi.descuentosya.uy${property.main_picture.url}`" height="300"></v-img>
+            <v-carousel height="300" hide-delimiters>
+              <v-carousel-item v-for="(picture,index) in property.pictures" :key="index">
+                <v-img :src="`https://batumi.descuentosya.uy${picture.url}`" height="300"></v-img>
+              </v-carousel-item>
+            </v-carousel>
             <v-card-text>
               <v-row no-gutters class="mb-3" v-for="feature in property.features" :key="feature.id">
                 <v-col class="col-8">
