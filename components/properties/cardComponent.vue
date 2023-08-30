@@ -1,6 +1,6 @@
 <template>
   <v-card class="rounded-lg">
-    <v-img  height="180" :src="`${property.main_picture.url}`">
+    <v-img  height="180" :src="`${main_picture.url}`">
       <div class="property-title fill-height">
         <span class="secondary white--text text-h6 pa-3 font-weight-extra-bold rounded-br-xl text-capitalize">{{ property.name }}</span>
         <v-chip class="sales-chip" v-if="property.in_sale">En venta</v-chip>
@@ -36,8 +36,22 @@ export default {
       }
 
 
+    },
+  },
+  data() {
+      return {
+        main_picture:{}
+      }
+    },
+    created() {
+      if(this.property && this.property.pictures.length>0) {
+        this.main_picture = this.property?.pictures[0]
+      } else {
+        this.main_picture = { url: '' }
+      }
     }
-  }
+
+
 }
 </script>
 
