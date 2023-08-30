@@ -9,7 +9,7 @@
           <GeneralCardComponent>
             <v-carousel height="300" hide-delimiters>
               <v-carousel-item v-for="(picture,index) in property.pictures" :key="index">
-                <v-img :src="`https://batumi.descuentosya.uy${picture.url}`" height="300"></v-img>
+                <v-img :src="`${picture.url}`" height="300"></v-img>
               </v-carousel-item>
             </v-carousel>
             <v-card-text>
@@ -62,28 +62,28 @@
 
               <v-row no-gutters class="mb-3">
                 <v-col class="col-12" v-if="property.data.contract?.id">
-                  <a class="font-weight-black text-subtitle-1" target="blank" :href="`https://batumi.descuentosya.uy${property.data.contract.url}`">
+                  <a class="font-weight-black text-subtitle-1" target="blank" :href="`${property.data.contract.url}`">
                     Contrato: <v-icon color="orange" size="30">mdi-file</v-icon>contrato.pdf
                   </a>
                 </v-col>
 
                 <v-col class="col-12" v-if="property.data.precontract?.id">
-                  <a class="font-weight-black text-subtitle-1" target="blank" :href="`https://batumi.descuentosya.uy${property.data.precontract.url}`">
+                  <a class="font-weight-black text-subtitle-1" target="blank" :href="`${property.data.precontract.url}`">
                     Precontrato: <v-icon color="orange" size="30">mdi-file</v-icon>contrato.pdf
                   </a>
                 </v-col>
                 <v-col class="col-12" v-if="property.data.reservation_invoice?.id">
-                  <a class="font-weight-black text-subtitle-1" target="blank" :href="`https://batumi.descuentosya.uy${property.data.reservation_invoice.url}`">
+                  <a class="font-weight-black text-subtitle-1" target="blank" :href="`${property.data.reservation_invoice.url}`">
                     Factura de reserva: <v-icon color="orange" size="30">mdi-file</v-icon>contrato.pdf
                   </a>
                 </v-col>
                 <v-col class="col-12" v-if="property.data.sale_invoice?.id">
-                  <a class="font-weight-black text-subtitle-1" target="blank" :href="`https://batumi.descuentosya.uy${property.data.sale_invoice.url}`">
+                  <a class="font-weight-black text-subtitle-1" target="blank" :href="`${property.data.sale_invoice.url}`">
                     Factura de entrada: <v-icon color="orange" size="30">mdi-file</v-icon>contrato.pdf
                   </a>
                 </v-col>
                 <v-col class="col-12" v-if="property.data.property_registration?.id">
-                  <a class="font-weight-black text-subtitle-1" target="blank" :href="`https://batumi.descuentosya.uy${property.data.property_registration.url}`">
+                  <a class="font-weight-black text-subtitle-1" target="blank" :href="`${property.data.property_registration.url}`">
                     Registro de propiedad: <v-icon color="orange" size="30">mdi-file</v-icon>contrato.pdf
                   </a>
                 </v-col>

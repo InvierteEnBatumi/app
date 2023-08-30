@@ -17,12 +17,6 @@
   "CardsHabitantesComponent": {
     "description": "Auto imported from components/cards/habitantesComponent.vue"
   },
-  "GraphComponent": {
-    "description": "Auto imported from components/graph/component.vue"
-  },
-  "NewsCardComponent": {
-    "description": "Auto imported from components/news/cardComponent.vue"
-  },
   "GeneralAdminComponent": {
     "description": "Auto imported from components/general/adminComponent.vue"
   },
@@ -44,17 +38,23 @@
   "GeneralTableComponent": {
     "description": "Auto imported from components/general/tableComponent.vue"
   },
+  "GraphComponent": {
+    "description": "Auto imported from components/graph/component.vue"
+  },
   "HeadersDashboardComponent": {
     "description": "Auto imported from components/headers/dashboardComponent.vue"
   },
   "HeadersGeneralComponent": {
     "description": "Auto imported from components/headers/generalComponent.vue"
   },
-  "CardsSinglePropertyComponent": {
-    "description": "Auto imported from components/cards/singleProperty/component.vue"
+  "NewsCardComponent": {
+    "description": "Auto imported from components/news/cardComponent.vue"
   },
   "PropertiesCardComponent": {
     "description": "Auto imported from components/properties/cardComponent.vue"
+  },
+  "CardsSinglePropertyComponent": {
+    "description": "Auto imported from components/cards/singleProperty/component.vue"
   },
   "FormsFieldsCheckboxComponent": {
     "description": "Auto imported from components/forms/fields/checkboxComponent.vue"

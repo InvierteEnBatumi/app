@@ -3,11 +3,12 @@ export const state = () => ({
   promotions: [],
   promotion: {
     data:{
-      revalorization:[],
         estimated_annual_return: 0,
         purchase_date:'2022-02-2'
     },
-    main_picture: {
+    disponibility:[],
+    revalorization:[],
+  main_picture: {
         url: ''
       },
       features:[],

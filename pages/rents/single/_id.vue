@@ -9,7 +9,7 @@
           <v-card class="rounded-lg">
             <v-carousel height="300" hide-delimiters>
               <v-carousel-item v-for="(picture,index) in property.pictures" :key="index">
-                <v-img :src="`https://batumi.descuentosya.uy${picture.url}`" height="300"></v-img>
+                <v-img :src="`${picture.url}`" height="300"></v-img>
               </v-carousel-item>
             </v-carousel>
             <v-card-text>
@@ -86,7 +86,7 @@
             </v-card-text>
             <v-card-actions class="d-flex justify-center">
               <v-btn class="white--text font-weight-black" color="secondary" large target="blank" depressed rounded
-                :href="`https://batumi.descuentosya.uy${property.file.url}`">
+                :href="`${property.file.url}`">
                 Ver contrato
               </v-btn>
             </v-card-actions>
@@ -266,6 +266,7 @@ import moment from 'moment'
     },
     computed: {
       property() {
+        console.log(this.$store.getters['promotions/get'])
         return this.$store.getters['promotions/get']
       },
       amortizationProgress(){
