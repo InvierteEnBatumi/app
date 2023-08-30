@@ -18,7 +18,7 @@ export default {
       validator: (propValue) => {
         // Verificar si main_picture es nulo o no está definido.
         if (propValue.pictures && propValue.pictures.length>0) {
-          propValue.main_picture = propValue.pictures[0]
+          propValue.main_picture = propValue?.pictures[0]
           // Asignar una imagen por defecto o URL específica en caso de que main_picture sea nulo o no esté definido.
           // Por ejemplo:
           // propValue.main_picture = { url: 'URL_DE_LA_IMAGEN_POR_DEFECTO' };
@@ -26,6 +26,13 @@ export default {
           propValue.main_picture = { url: '' };
         }
         return true;
+      },
+      default: function () {
+        return { 
+          main_picture:{
+            url:""
+          }
+         }
       }
 
 
