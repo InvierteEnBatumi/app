@@ -35,7 +35,7 @@
               </v-row>
               <v-row no-gutters class="mb-3">
                 <v-col class="col-7">
-                  <span class="font-weight-bold black--text">Metros cuadrados</span>
+                  <span class="font-weight-bold black--text">Areaados</span>
                 </v-col>
                 <v-col class="col-5 text-right">
                   <span class="font-weight-bold black--text">{{ property.data.square_meters }}m2</span>

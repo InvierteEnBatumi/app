@@ -32,18 +32,22 @@
       <v-tabs slider-size="4" :show-arrows="false" grow centered color="black" >
       
       <v-tab to="/">
-        <v-icon color="white">ion-ios-home</v-icon>
+        <v-icon color="white" size="22">ion-ios-home</v-icon>
       </v-tab>
       <v-tab to="/rents">
-        <v-icon color="white">mdi-finance</v-icon>
+        <v-icon color="white" size="22">mdi-finance</v-icon>
       </v-tab>
       <v-tab to="/sales">
-        <v-icon color="white">ion-ios-home</v-icon>
-        <v-icon color="white">mdi-currency-usd</v-icon>
+        <v-icon color="white" size="22">ion-ios-home</v-icon>
+        <v-icon color="white" size="22">mdi-currency-usd</v-icon>
      </v-tab>
       <v-tab to="/news">
-        <v-icon color="white">ion-ios-paper</v-icon>
+        <v-icon color="white" size="22">ion-ios-paper</v-icon>
       </v-tab>
+      <v-tab @click="sendWhatsap()">
+        <v-icon color="white" size="22">mdi-whatsapp</v-icon>
+      </v-tab>
+
     </v-tabs>
       </template>
   </v-toolbar>
@@ -63,7 +67,13 @@
       }
     },
     methods: {
-
+      sendWhatsap() {
+        let message = "Hola, te contacto desde InvierteEnBatumi!";
+        let number = "1234567890"; // Reemplazar con el número de teléfono de soporte
+        let url = 'https://wa.me/' + number + '?text=' + encodeURIComponent(message);
+        window.open(url, '_blank');
+      }
+      
     },
     computed: {
       currenTitle() {

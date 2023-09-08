@@ -35,7 +35,7 @@
               </v-row>
               <v-row no-gutters class="mb-3">
                 <v-col class="col-8">
-                  <span class="font-weight-bold black--text">Metros cuadrados</span>
+                  <span class="font-weight-bold black--text">Areaados</span>
                 </v-col>
                 <v-col class="col-4 text-right">
                   <span class="font-weight-bold black--text">{{ property.data.square_meters }} m2</span>
@@ -66,6 +66,13 @@
                 </v-col>
                 <v-col class="col-4 text-right">
                   <span class="font-weight-bold black--text">{{ property.data.orientation }}</span>
+                </v-col>
+              </v-row>
+              <v-row no-gutters class="mb-3">
+                <v-col class="col-12">
+                  <a class="font-weight-black text-subtitle-1" target="blank" href="`https://tatudev.nyc3.digitaloceanspaces.com/batumi/32f9738152fa485bb6c95003b7ed9973.pdf`">
+                    Contrato: <v-icon color="orange" size="30">mdi-file</v-icon>contrato.pdf
+                  </a>
                 </v-col>
               </v-row>
 
