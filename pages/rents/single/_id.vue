@@ -9,7 +9,7 @@
           <v-card class="rounded-lg">
             <v-carousel height="300" hide-delimiters>
               <v-carousel-item v-for="(picture,index) in property.pictures" :key="index">
-                <v-img :src="`${picture.url}`" height="300"></v-img>
+                <v-img :src="`https://batumi-backend.onrender.com${picture.url}`" height="300"></v-img>
               </v-carousel-item>
             </v-carousel>
             <v-card-text>

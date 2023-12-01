@@ -4,17 +4,21 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _9ee0b1b6 = () => interopDefault(import('../pages/inspire.vue' /* webpackChunkName: "pages/inspire" */))
-const _7107ebe4 = () => interopDefault(import('../pages/investments/index.vue' /* webpackChunkName: "pages/investments/index" */))
-const _6d1f5618 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
-const _b68b32ca = () => interopDefault(import('../pages/news/index.vue' /* webpackChunkName: "pages/news/index" */))
-const _0b47b828 = () => interopDefault(import('../pages/rents/index.vue' /* webpackChunkName: "pages/rents/index" */))
-const _e585834c = () => interopDefault(import('../pages/sales/index.vue' /* webpackChunkName: "pages/sales/index" */))
-const _006e9c46 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
-const _67a3ef67 = () => interopDefault(import('../pages/investments/single/_id.vue' /* webpackChunkName: "pages/investments/single/_id" */))
-const _0f9a62fa = () => interopDefault(import('../pages/news/single/_id.vue' /* webpackChunkName: "pages/news/single/_id" */))
-const _3b59fce6 = () => interopDefault(import('../pages/rents/single/_id.vue' /* webpackChunkName: "pages/rents/single/_id" */))
-const _50338a9b = () => interopDefault(import('../pages/sales/single/_id.vue' /* webpackChunkName: "pages/sales/single/_id" */))
+const _2be7c3f1 = () => interopDefault(import('../pages/finanzas/index.vue' /* webpackChunkName: "pages/finanzas/index" */))
+const _00ff82e0 = () => interopDefault(import('../pages/inspire.vue' /* webpackChunkName: "pages/inspire" */))
+const _4b7297b9 = () => interopDefault(import('../pages/investments/index.vue' /* webpackChunkName: "pages/investments/index" */))
+const _403469c2 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
+const _16c1d960 = () => interopDefault(import('../pages/news/index.vue' /* webpackChunkName: "pages/news/index" */))
+const _12935c2f = () => interopDefault(import('../pages/referrals/index.vue' /* webpackChunkName: "pages/referrals/index" */))
+const _16bcf546 = () => interopDefault(import('../pages/register.vue' /* webpackChunkName: "pages/register" */))
+const _900ebbda = () => interopDefault(import('../pages/rents/index.vue' /* webpackChunkName: "pages/rents/index" */))
+const _39ee2845 = () => interopDefault(import('../pages/sales/index.vue' /* webpackChunkName: "pages/sales/index" */))
+const _163e2808 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _a6eb96c8 = () => interopDefault(import('../pages/investments/single/_id.vue' /* webpackChunkName: "pages/investments/single/_id" */))
+const _76c34136 = () => interopDefault(import('../pages/news/single/_id.vue' /* webpackChunkName: "pages/news/single/_id" */))
+const _cec06c34 = () => interopDefault(import('../pages/referrals/single/_id.vue' /* webpackChunkName: "pages/referrals/single/_id" */))
+const _6462dafc = () => interopDefault(import('../pages/rents/single/_id.vue' /* webpackChunkName: "pages/rents/single/_id" */))
+const _3baf1b90 = () => interopDefault(import('../pages/sales/single/_id.vue' /* webpackChunkName: "pages/sales/single/_id" */))
 
 const emptyFn = () => {}
 
@@ -28,48 +32,64 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/finanzas",
+    component: _2be7c3f1,
+    name: "finanzas"
+  }, {
     path: "/inspire",
-    component: _9ee0b1b6,
+    component: _00ff82e0,
     name: "inspire"
   }, {
     path: "/investments",
-    component: _7107ebe4,
+    component: _4b7297b9,
     name: "investments"
   }, {
     path: "/login",
-    component: _6d1f5618,
+    component: _403469c2,
     name: "login"
   }, {
     path: "/news",
-    component: _b68b32ca,
+    component: _16c1d960,
     name: "news"
   }, {
+    path: "/referrals",
+    component: _12935c2f,
+    name: "referrals"
+  }, {
+    path: "/register",
+    component: _16bcf546,
+    name: "register"
+  }, {
     path: "/rents",
-    component: _0b47b828,
+    component: _900ebbda,
     name: "rents"
   }, {
     path: "/sales",
-    component: _e585834c,
+    component: _39ee2845,
     name: "sales"
   }, {
     path: "/",
-    component: _006e9c46,
+    component: _163e2808,
     name: "index"
   }, {
     path: "/investments/single/:id?",
-    component: _67a3ef67,
+    component: _a6eb96c8,
     name: "investments-single-id"
   }, {
     path: "/news/single/:id?",
-    component: _0f9a62fa,
+    component: _76c34136,
     name: "news-single-id"
   }, {
+    path: "/referrals/single/:id?",
+    component: _cec06c34,
+    name: "referrals-single-id"
+  }, {
     path: "/rents/single/:id?",
-    component: _3b59fce6,
+    component: _6462dafc,
     name: "rents-single-id"
   }, {
     path: "/sales/single/:id?",
-    component: _50338a9b,
+    component: _3baf1b90,
     name: "sales-single-id"
   }],
 

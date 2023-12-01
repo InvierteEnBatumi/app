@@ -11,17 +11,11 @@
 
 
   export default {
+    middleware:'auth',
     created() {
-      if(!localStorage.hasOwnProperty('loggedIn')){
-            this.$router.push('/login')
-        }
 
     },
     methods: {
-      logout(){
-        localStorage.removeItem('loggedIn')
-        this.$router.push('/login')
-      }
     },
     computed: {
     }

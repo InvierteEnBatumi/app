@@ -131,6 +131,9 @@ body {
   .full-width {
     width: 100%;
   }
+  .primary-gradient {
+    background: linear-gradient(#CA4282, #269aa4) !important;
+}
 
   //tabs
 
@@ -140,7 +143,9 @@ body {
     color: black !important;
 
   }
-
+  .p-relative{
+    position:relative;
+  }
   @media (min-width: 720px) {
     .v-tab {
       width: 25% !important;

@@ -1,79 +1,107 @@
 [
   {
+    "name": "finanzas",
+    "path": "/finanzas",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/finanzas/index.vue",
+    "chunkName": "pages/finanzas/index",
+    "_name": "_2be7c3f1"
+  },
+  {
     "name": "inspire",
     "path": "/inspire",
-    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/inspire.vue",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/inspire.vue",
     "chunkName": "pages/inspire",
-    "_name": "_9ee0b1b6"
+    "_name": "_00ff82e0"
   },
   {
     "name": "investments",
     "path": "/investments",
-    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/investments/index.vue",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/investments/index.vue",
     "chunkName": "pages/investments/index",
-    "_name": "_7107ebe4"
+    "_name": "_4b7297b9"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/login.vue",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/login.vue",
     "chunkName": "pages/login",
-    "_name": "_6d1f5618"
+    "_name": "_403469c2"
   },
   {
     "name": "news",
     "path": "/news",
-    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/news/index.vue",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/news/index.vue",
     "chunkName": "pages/news/index",
-    "_name": "_b68b32ca"
+    "_name": "_16c1d960"
+  },
+  {
+    "name": "referrals",
+    "path": "/referrals",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/referrals/index.vue",
+    "chunkName": "pages/referrals/index",
+    "_name": "_12935c2f"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/register.vue",
+    "chunkName": "pages/register",
+    "_name": "_16bcf546"
   },
   {
     "name": "rents",
     "path": "/rents",
-    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/rents/index.vue",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/rents/index.vue",
     "chunkName": "pages/rents/index",
-    "_name": "_0b47b828"
+    "_name": "_900ebbda"
   },
   {
     "name": "sales",
     "path": "/sales",
-    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/sales/index.vue",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/sales/index.vue",
     "chunkName": "pages/sales/index",
-    "_name": "_e585834c"
+    "_name": "_39ee2845"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/index.vue",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_006e9c46"
+    "_name": "_163e2808"
   },
   {
     "name": "investments-single-id",
     "path": "/investments/single/:id?",
-    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/investments/single/_id.vue",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/investments/single/_id.vue",
     "chunkName": "pages/investments/single/_id",
-    "_name": "_67a3ef67"
+    "_name": "_a6eb96c8"
   },
   {
     "name": "news-single-id",
     "path": "/news/single/:id?",
-    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/news/single/_id.vue",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/news/single/_id.vue",
     "chunkName": "pages/news/single/_id",
-    "_name": "_0f9a62fa"
+    "_name": "_76c34136"
+  },
+  {
+    "name": "referrals-single-id",
+    "path": "/referrals/single/:id?",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/referrals/single/_id.vue",
+    "chunkName": "pages/referrals/single/_id",
+    "_name": "_cec06c34"
   },
   {
     "name": "rents-single-id",
     "path": "/rents/single/:id?",
-    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/rents/single/_id.vue",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/rents/single/_id.vue",
     "chunkName": "pages/rents/single/_id",
-    "_name": "_3b59fce6"
+    "_name": "_6462dafc"
   },
   {
     "name": "sales-single-id",
     "path": "/sales/single/:id?",
-    "component": "/home/brunodiharce/Documentos/dev/Trabajo/batumi/frontend/app/pages/sales/single/_id.vue",
+    "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/sales/single/_id.vue",
     "chunkName": "pages/sales/single/_id",
-    "_name": "_50338a9b"
+    "_name": "_3baf1b90"
   }
 ]

@@ -41,21 +41,19 @@
 
 <script>
   export default {
+    middleware:'auth',
     data(){
       return {
         menu: false
       }
     },
-    created() {
-      if(!localStorage.hasOwnProperty('loggedIn')){
-            this.$router.push('/login')
-        }
-
-    },
     methods: {
       logout(){
-        localStorage.removeItem('loggedIn')
-        this.$router.push('/login')
+        
+        this.$auth.logout()
+          .then(()=>{
+            this.$router.push('/login')
+          })
       }
     },
     computed: {}

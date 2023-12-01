@@ -37,18 +37,47 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
   ],
+  auth: {
+    autoLogout: true,
+    localStorage: false,
+    strategies: {
+      local: {
+        endpoints: {
+          login: {
+            url: "/auth/local/",
+            method: "post",
+            propertyName: "jwt"
+          },
+          logout: false,
+          user: {
+            url: "/users/me/?populate=*",
+            method: "get",
+            propertyName: false
+          },
+        },
+        tokenRequired: true,
+        tokenType: "Bearer"
+      }
+    },
+    redirect: {
+      login: "/",
+      logout: "/accounts/login",
+      home: "/"
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    'portal-vue/nuxt' 
+    'portal-vue/nuxt',
+    '@nuxtjs/auth',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: 'https://batumi.descuentosya.uy/api', 
+    baseURL: 'https://batumi-backend.onrender.com/api', 
   },
   css: [
     '~/assets/style.scss'
