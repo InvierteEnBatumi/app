@@ -1,6 +1,6 @@
 <template>
   <v-card class="rounded-lg">
-    <v-img  height="180" :src="`https://batumi-backend.onrender.com${main_picture.url}`">
+    <v-img  height="180" :src="`https://batumi-backend.app.brupadev.tech${main_picture.url}`">
       <div class="property-title fill-height">
         <span class="secondary white--text text-h6 pa-3 font-weight-extra-bold rounded-br-xl text-capitalize">{{ property.name }}</span>
         <v-chip class="sales-chip" v-if="property.in_sale">En venta</v-chip>
