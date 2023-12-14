@@ -3,105 +3,90 @@
     "name": "finanzas",
     "path": "/finanzas",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/finanzas/index.vue",
-    "chunkName": "pages/finanzas/index",
-    "_name": "_2be7c3f1"
+    "chunkName": "pages/finanzas/index"
   },
   {
     "name": "inspire",
     "path": "/inspire",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/inspire.vue",
-    "chunkName": "pages/inspire",
-    "_name": "_00ff82e0"
+    "chunkName": "pages/inspire"
   },
   {
     "name": "investments",
     "path": "/investments",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/investments/index.vue",
-    "chunkName": "pages/investments/index",
-    "_name": "_4b7297b9"
+    "chunkName": "pages/investments/index"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/login.vue",
-    "chunkName": "pages/login",
-    "_name": "_403469c2"
+    "chunkName": "pages/login"
   },
   {
     "name": "news",
     "path": "/news",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/news/index.vue",
-    "chunkName": "pages/news/index",
-    "_name": "_16c1d960"
+    "chunkName": "pages/news/index"
   },
   {
     "name": "referrals",
     "path": "/referrals",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/referrals/index.vue",
-    "chunkName": "pages/referrals/index",
-    "_name": "_12935c2f"
+    "chunkName": "pages/referrals/index"
   },
   {
     "name": "register",
     "path": "/register",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/register.vue",
-    "chunkName": "pages/register",
-    "_name": "_16bcf546"
+    "chunkName": "pages/register"
   },
   {
     "name": "rents",
     "path": "/rents",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/rents/index.vue",
-    "chunkName": "pages/rents/index",
-    "_name": "_900ebbda"
+    "chunkName": "pages/rents/index"
   },
   {
     "name": "sales",
     "path": "/sales",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/sales/index.vue",
-    "chunkName": "pages/sales/index",
-    "_name": "_39ee2845"
+    "chunkName": "pages/sales/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_163e2808"
+    "chunkName": "pages/index"
   },
   {
     "name": "investments-single-id",
     "path": "/investments/single/:id?",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/investments/single/_id.vue",
-    "chunkName": "pages/investments/single/_id",
-    "_name": "_a6eb96c8"
+    "chunkName": "pages/investments/single/_id"
   },
   {
     "name": "news-single-id",
     "path": "/news/single/:id?",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/news/single/_id.vue",
-    "chunkName": "pages/news/single/_id",
-    "_name": "_76c34136"
+    "chunkName": "pages/news/single/_id"
   },
   {
     "name": "referrals-single-id",
     "path": "/referrals/single/:id?",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/referrals/single/_id.vue",
-    "chunkName": "pages/referrals/single/_id",
-    "_name": "_cec06c34"
+    "chunkName": "pages/referrals/single/_id"
   },
   {
     "name": "rents-single-id",
     "path": "/rents/single/:id?",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/rents/single/_id.vue",
-    "chunkName": "pages/rents/single/_id",
-    "_name": "_6462dafc"
+    "chunkName": "pages/rents/single/_id"
   },
   {
     "name": "sales-single-id",
     "path": "/sales/single/:id?",
     "component": "/Users/brunodiharce/Documents/dev/trabajo/batumi/app/app/pages/sales/single/_id.vue",
-    "chunkName": "pages/sales/single/_id",
-    "_name": "_3baf1b90"
+    "chunkName": "pages/sales/single/_id"
   }
 ]

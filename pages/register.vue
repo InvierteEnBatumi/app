@@ -89,12 +89,12 @@
                 }
                 if(!this.$refs.form.validate()) return
                 this.client.username = this.client.email
-                axios.post('https://batumi-backend.app.brupadev.tech/api/auth/local/register', {
+                axios.post('https://batumi.app.brupadev.tech/api/auth/local/register', {
                         ...this.client,
                     })
                     .then((data)=>{
                         if(this.referredCode){
-                            axios.put('https://batumi-backend.app.brupadev.tech/api/users/'+this.client.referred,{
+                            axios.put('https://batumi.app.brupadev.tech/api/users/'+this.client.referred,{
                                     referrals:[data.data.user.id]
                             })
                         }
